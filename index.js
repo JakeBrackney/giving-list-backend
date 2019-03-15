@@ -9,15 +9,26 @@ app.set("port", process.env.PORT || 3001);
 app.use(parser.json());
 app.use(cors());
 
-app.listen(app.get('port'), () => {
-  console.log(`✅ PORT: ${app.get('port')} 🌟`)
-})
+
+
 
 //show list with all charities
 app.get("/", (req, res) => {
   Charity.find()
     .then(charities => {
       res.json(charities);
+    })
+    .catch(err => {
+      console.log(err);
+    });
+});
+
+//show details of single charity
+app.get("/giving/:id", (req, res) => {
+  console.log('show single component')
+  Charity.findById(req.params.id)
+    .then(charity => {
+      res.json(charity);
     })
     .catch(err => {
       console.log(err);
@@ -34,20 +45,6 @@ app.post("/giving/neworg", (req, res) => {
       console.log(err);
     });
 });
-
-//show details of single charity
-app.get("/giving/:id", (req, res) => {
-  console.log('sup fam')
-  Charity.findById(req.params._id)
-    .then(charity => {
-      res.json(charity);
-    })
-    .catch(err => {
-      console.log(err);
-    });
-});
-
-
 
 //update charity
 app.put('/giving/:id', (req, res) => {
@@ -72,6 +69,10 @@ app.delete("/giving/:id", (req, res) => {
       console.log(err);
     });
  });
+
+ app.listen(app.get('port'), () => {
+  console.log(`✅ PORT: ${app.get('port')} 🌟`)
+})
 
 //user logout
 
