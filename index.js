@@ -1,8 +1,9 @@
 const express = require("express");
 const parser = require("body-parser");
 const cors = require("cors");
-const app = express();
 const Charity =require('./db/models')
+
+const app = express();
 
 app.set("port", process.env.PORT || 3001);
 app.use(parser.json());
@@ -24,7 +25,7 @@ app.get("/", (req, res) => {
 });
 
 //create a new charity
-app.post("/giving/newcharity", (req, res) => {
+app.post("/giving/neworg", (req, res) => {
   Charity.create(req.body)
     .then(charities => {
       res.json(charities);
@@ -36,7 +37,8 @@ app.post("/giving/newcharity", (req, res) => {
 
 //show details of single charity
 app.get("/giving/:id", (req, res) => {
-  Charity.findById(req.params.id)
+  console.log('sup fam')
+  Charity.findById(req.params._id)
     .then(charity => {
       res.json(charity);
     })
@@ -48,7 +50,7 @@ app.get("/giving/:id", (req, res) => {
 
 
 //update charity
-app.put('/charity/:id', (req, res) => {
+app.put('/giving/:id', (req, res) => {
   console.log(req.body)
  Charity.findByIdAndUpdate(req.params.id, req.body)
  .then(charity => {
@@ -61,7 +63,7 @@ app.put('/charity/:id', (req, res) => {
 });
 
 //delete charity
-app.delete("/charity/:id", (req, res) => {
+app.delete("/giving/:id", (req, res) => {
   Charity.findOneAndRemove({ _id: req.params.id })
     .then(charity => {
       res.json(charity);

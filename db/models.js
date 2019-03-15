@@ -1,6 +1,6 @@
 const mongoose = require('./connection.js')
 
-const CharitySchema = new mongoose.schema ({
+const CharitySchema = new mongoose.Schema ({
   org: String,
   category: String,
   mission: String,
