@@ -5,11 +5,12 @@ const Charity =require('./db/models')
 
 const app = express();
 
-app.set("port", process.env.PORT || 3001);
 app.use(parser.json());
 app.use(cors());
 
-
+app.get("/", (req, res) => {
+  res.sendFile(__dirname + "/client/build/index.html");
+});
 
 
 //show list with all charities
@@ -69,6 +70,8 @@ app.delete("/giving/:id", (req, res) => {
       console.log(err);
     });
  });
+
+ app.set("port", process.env.PORT || 3001);
 
  app.listen(app.get('port'), () => {
   console.log(`✅ PORT: ${app.get('port')} 🌟`)
