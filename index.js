@@ -14,9 +14,9 @@ app.listen(app.get('port'), () => {
   console.log(`✅ PORT: ${app.get('port')} 🌟`)
 })
 
-app.get("/", (req, res) => {
-  res.sendFile(__dirname + "/client/build/index.html");
-});
+// app.get("/", (req, res) => {
+//   res.sendFile(__dirname + "/client/build/index.html");
+// });
 
 //show list with all charities
 app.get("/", (req, res) => {
