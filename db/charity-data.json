@@ -169,11 +169,67 @@
   },
   {
     "org": "Human Rights Campaign",
-    "category": "Human Rights",
+    "category": "LGBTQ",
     "mission": "The Human Rights Campaign and the Human Rights Campaign Foundation together serve as America's largest civil rights organization working to achieve LGBTQ equality. By inspiring and engaging individuals and communities, HRC strives to end discrimination against LGBTQ people and realize a world that achieves fundamental fairness and equality for all. The Human Rights Campaign envisions a world where lesbian, gay, bisexual, transgender and queer people are ensured equality and embraced as full members of society at home, at work and in every community.",
     "donateUrl": "https://give.hrc.org/page/31622/donate/1?val&ea.tracking.id=or_gnr_hrc_homepage_sticky1218&recurrpay=Y&donationAmt=20&_ga=2.74164946.1103365419.1553023756-268197707.1553023756",
     "logoUrl": "https://assets2.hrc.org/files/images/blog/HRCLogo-WithWords-1600x900.png",
     "alph": "H"
+  },
+  {
+    "org": "Cystic Fibrosis Research, Inc.",
+    "category": "Disease Research",
+    "mission": "The Cystic Fibrosis Research, Inc. (CFRI) works to fund research, provide educational and personal support, and spread awareness of cystic fibrosis (CF), a life-threatening genetic disease.",
+    "donateUrl": "http://cfri.org/ways-to-give/#donate",
+    "logoUrl": "https://cdn.greatnonprofits.org/images/logos/CFRI.logo.PMS7678.big.jpeg",
+    "alph": "C"
+  },
+  {
+    "org": "Human Rights Watch",
+    "category": "Human Rights",
+    "mission": "Dedicated to protecting the human rights of people around the world.",
+    "donateUrl": "https://donate.hrw.org/page/15328/donate/1?promo_id=1000",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Hrw_logo.svg/2000px-Hrw_logo.svg.png",
+    "alph": "H"
+  },
+  {
+    "org": "National Breast Cancer Coalition Fund",
+    "category": "Disease Research",
+    "mission": "To end breast cancer; has set a deadline to know how to end breast cancer by January 1, 2020.",
+    "donateUrl": "http://www.breastcancerdeadline2020.org/donate/",
+    "logoUrl": "https://www.pabreastcancer.org/blog/wp-content/uploads/2014/03/PBCC-LOGO.jpg",
+    "alph": "N"
+  },
+  {
+    "org": "Food and Water Watch",
+    "category": "Consumer Protection",
+    "mission": "Conducts extensive research and public education to ensure the food, water and fish we consume is safe, accessible and sustainably produced.",
+    "donateUrl": "https://secure.foodandwaterwatch.org/donate/donate-food-water-watch-0?ms=fwws_lb_010219_topshelf-evergreen&oms=fwws_lb_010219_topshelf-evergreen",
+    "logoUrl": "https://www.foodandwaterwatch.org/sites/foodandwaterwatch.org/modules/features/fww_social_sharing/images/fww_fb_default.jpg",
+    "alph": "F"
+  },
+  {
+    "org": "Christopher & Dana Reeve Foundation",
+    "category": "Disability",
+    "mission": "Dedicated to curing spinal cord injury by funding innovative research and improving the quality of life for people living with paralysis through grants, information, and advocacy.",
+    "donateUrl": "https://www.christopherreeve.org/donate",
+    "logoUrl": "https://www.spinalcord.com/hubfs/creeve2.jpg",
+    "alph": "C"
+  },
+  {
+    "org": "Arbor Day Foundation",
+    "category": "Environment",
+    "mission": "To engage in educational & charitable activities including officially promoting the annual observance of Arbor Day; inspiring people to plant, nurture & celebrate trees; stimulating a worldwide program of tree & horticultural planting & care; advancing nature education & environmental education; and maintaining Arbor Day Farm, the estate of Arbor Day's founder, J. Sterling Morton.",
+    "donateUrl": "https://shop.arborday.org/donate-general.aspx",
+    "logoUrl": "https://3blmedia.com/sites/www.3blmedia.com/files/ArborDayFoundationLogo_green.jpg",
+    "alph": "A"
+  },
+  {
+    "org": "Environmental Defense Fund",
+    "category": "Environment",
+    "mission": "To preserve the natural systems on which all life depends; guided by science and economics, finds practical and lasting solutions to the most serious environmental problems.",
+    "donateUrl": "https://membership.onlineaction.org/site/Donation2?df_id=18816&18816.donation=form1&addl_info=nav-button&conversion_pg=www.edf.org%2F&_ga=2.135468593.1211882759.1553026861-1859735191.1553026861",
+    "logoUrl": "https://www.edf.org/sites/all/themes/edf/images/edf-logo-1200x630.jpg",
+    "alph": "E"
   },
   {
     "org": "",
