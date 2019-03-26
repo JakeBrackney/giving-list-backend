@@ -42,7 +42,7 @@ app.get("/giving/:id", (req, res) => {
 });
 
 //create a new charity
-app.post("/giving/neworg", (req, res) => {
+app.post("/giving/:id", (req, res) => {
   Charity.create(req.body)
     .then(charities => {
       res.json(charities);
